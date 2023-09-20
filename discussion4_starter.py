@@ -9,7 +9,7 @@ class Rectangle():
     def __init__(self, width, height):
         self.width = width
         self.height = height
-        # pass
+        pass
 
 
     # Create the "__str__" method
@@ -61,7 +61,7 @@ class Rectangle():
          if self.verify_input == False:
               return "Invalid input"
          else:
-              return self.width * 2 + self.height * 2
+              return self.height * 2 + self.width * 2
          
 
 
